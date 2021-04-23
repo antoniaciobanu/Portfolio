@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Templete</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bubbles.css" />
+    <link rel="stylesheet" href="css/timeline.css" />
+    <link rel="stylesheet" href="css/animated-footer.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+    <link rel="stylesheet" href="css/contact-form.css" />
+  </head>
+
+  <body data-spy="scroll" data-target="#menu-top" data-offset="70">
+    <i class="scrollTop fas fa-hand-pointer" onclick="scrollToTop();"></i>
+
+    <div class="overflow">
+      <div id="header-bg">
+        <!-- <section class="sticky"> -->
+        <div class="bubbles">
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+        </div>
+
+        <!-- </section> -->
+        <div class="opacity">
+          <div class="head">
+            <header id="menu-top">
+              <div class="container">
+                <a
+                  href="#"
+                  class="logo"
+                  data-aos="fade-down-right"
+                  data-aos-duration="1000"
+                  ><img
+                    src="webimg/logo_small.png"
+                    alt=""
+                    class="logo-lite" /><img
+                    src="webimg/logo_white_large.png"
+                    alt=""
+                    class="logo-black"
+                /></a>
+                <ul
+                  class="navbar-nav-menu navbar-nav"
+                  data-aos="fade-down-left"
+                  data-aos-duration="1000"
+                >
+                  <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                  </li>
+                </ul>
+                <i class="fa fa-bars menu-icon"></i>
+              </div>
+            </header>
+            <div class="container">
+              <div class="clearfix"></div>
+              <img src="webimg/bluefish.png" class="fish fish1" />
+              <img src="webimg/greenfish.png" class="fish fish2" />
+              <img src="webimg/nemo.png" class="fish fish3" />
+              <img src="webimg/seahorse.png" class="fish fish4" />
+              <img src="webimg/orangecoral.png" class="fish coral" />
+              <img src="webimg/coral.png" class="fish coral1" />
+              <img src="webimg/yellowcoral.png" class="fish coral2" />
+              <div class="text-capitalize">
+                <h4 class="text-center type-up">welcome</h4>
+              </div>
+              <div class="type-area text-center">
+                <div class="type-wrap">
+                  <style>
+                    .wavy-text {
+                      filter: url("#wavy");
+                    }
+                  </style>
+                  <h1 class="wavy-text">I am Maria-Antonia Ciobanu</h1>
+                  <svg width="100%" height="100%" style="display: none">
+                    <defs>
+                      <filter
+                        id="wavy"
+                        filterUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                      >
+                        <feTurbulence
+                          id="wave-animation"
+                          numOctaves="1"
+                          seed="1"
+                          baseFrequency="0 0"
+                        ></feTurbulence>
+                        <feDisplacementMap
+                          scale="10"
+                          in="SourceGraphic"
+                        ></feDisplacementMap>
+                      </filter>
+                      <animate
+                        xlink:href="#wave-animation"
+                        attributeName="baseFrequency"
+                        dur="3s"
+                        keyTimes="0;0.5;1"
+                        values="0.0 0.04;0.0 0.07;0.0 0.04"
+                        repeatCount="indefinite"
+                      ></animate>
+                    </defs>
+                  </svg>
+                  <h2 class="fixed text-center">Junior Front End Developer</h2>
+                </div>
+
+                <!--  -->
+                <!-- <br />
+                  <button type="button" class="text-uppercase cv text-center">
+                    <a href="#about">view more</a>
+                  </button> -->
+
+                <img src="webimg/wave.svg" class="wave" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="about" id="about">
+      <div class="container">
+        <div class="profile-img">
+          <img
+            src="webimg/me.png"
+            alt=""
+            data-aos="fade-down"
+            data-aos-duration="2000"
+          />
+        </div>
+        <div class="about-us-text">
+          <h2 data-aos="fade-left" data-aos-duration="2500">About Me</h2>
+          <h3 data-aos="fade-left" data-aos-duration="2500">
+            Hello!
+            <span data-aos="fade-left" data-aos-duration="2500"
+              >I'M Maria-Antonia Ciobanu</span
+            >
+          </h3>
+          <p>
+            I recently decided that it's time to change my career, and become a
+            Web Developer. I always had a curiosity and fascination about
+            various aspects of technology like responsive websites and realistic
+            games.
+          </p>
+
+          <p>
+            I quickly became to understand that code is a superpower and every
+            person should be able to access it. Understanding that code is the
+            underlying(and invisible)framework of tech means that we do not have
+            to be passive bystanders in our ever-changing digital world.
+          </p>
+          <p>
+            To gain skills and knowledge in this industry, I enrolled with Just
+            IT, being trained in becoming a professional Web Developer.
+          </p>
+          <!-- <div class="about-section-icon"> -->
+          <h4 class="animate__animated animate__pulse animate__infinite">
+            <a href="webimg/Maria-Antonia Ciobanu CV.doc">Download CV</a>
+          </h4>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="service" id="skills">
+      <div class="bubbles">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+      </div>
+      <div class="container">
+        <div class="service-head text-center">
+          <h2 class="text-capitalize">My Skills</h2>
+        </div>
+        <div
+          class="service-content"
+          data-aos="flip-down"
+          data-aos-duration="1500"
+        >
+          <img src="webimg/html.png" />
+          <div class="section-under-content">
+            <h2 class="text-uppercase">html5</h2>
+          </div>
+        </div>
+        <div
+          class="service-content"
+          data-aos="flip-down"
+          data-aos-duration="1500"
+        >
+          <img src="webimg/css-3.png" />
+          <div class="section-under-content">
+            <h2 class="text-uppercase">css3</h2>
+          </div>
+        </div>
+        <div
+          class="service-content"
+          data-aos="flip-down"
+          data-aos-duration="1500"
+        >
+          <img src="webimg/js-file.png" />
+          <div class="section-under-content">
+            <h2 class="text-uppercase">javascript</h2>
+          </div>
+        </div>
+        <div
+          class="service-content"
+          data-aos="flip-down"
+          data-aos-duration="1500"
+        >
+          <img src="webimg/atom.png" />
+          <div class="section-under-content">
+            <h2 class="text-uppercase">react</h2>
+          </div>
+        </div>
+        <div
+          class="service-content"
+          data-aos="flip-down"
+          data-aos-duration="1500"
+        >
+          <img src="webimg/creativity.png" />
+          <div class="section-under-content">
+            <h2 class="text-uppercase">creativity</h2>
+          </div>
+        </div>
+        <div
+          class="service-content"
+          data-aos="flip-down"
+          data-aos-duration="1500"
+        >
+          <img src="webimg/organization.png" />
+          <div class="section-under-content">
+            <h2 class="text-uppercase">organization</h2>
+          </div>
+        </div>
+        <div
+          class="service-content"
+          data-aos="flip-down"
+          data-aos-duration="1500"
+        >
+          <img src="webimg/communication.png" />
+          <div class="section-under-content">
+            <h2 class="text-uppercase">communication</h2>
+          </div>
+        </div>
+        <div
+          class="service-content"
+          data-aos="flip-down"
+          data-aos-duration="1500"
+        >
+          <img src="webimg/team.png" />
+          <div class="section-under-content">
+            <h2 class="text-uppercase">teamwork</h2>
+          </div>
+        </div>
+        <div
+          class="service-content"
+          data-aos="flip-down"
+          data-aos-duration="1500"
+        >
+          <img src="webimg/learn.png" />
+          <div class="section-under-content">
+            <h2 class="text-uppercase">fast learning</h2>
+          </div>
+        </div>
+      </div>
+      <img src="webimg/whitewave.svg" class="wave" />
+    </div>
+
+    <!-- timeline -->
+    <div class="container" id="experience">
+      <div class="service-head text-center">
+        <h2 class="text-capitalize">My Experience</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="main-timeline">
+            <div class="timeline" data-aos="zoom-in-right">
+              <a href="#" class="timeline-content">
+                <div class="timeline-year">2020-2021</div>
+                <h3 class="title">
+                  Just IT - Development Professional Program
+                </h3>
+                <p class="description">
+                  I have started a graduate-level self-funded coding Bootcamp
+                  provided by Just IT, where I have a gained a lot of skills in
+                  a short amount of time. The course covered HTML, CSS,
+                  JavaScript, C#, ASP.NET, SQL and MVC concepts.
+                </p>
+              </a>
+            </div>
+            <div class="timeline" data-aos="zoom-in-left">
+              <a href="#" class="timeline-content">
+                <div class="timeline-year">2016-2020</div>
+                <h3 class="title">Private House Cleaner</h3>
+                <p class="description">
+                  From this job, I learned how to manage my time with
+                  efficiency, provide quality services for different types of
+                  clients and adapting with ease to any kind of environments.
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- timeline end -->
+
+    <div class="works-section" id="portfolio">
+      <div class="container">
+        <h2 class="text-capitalize text-center">projects</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="projects">
+              <div class="row">
+                <div class="item html">
+                  <div class="card">
+                    <div class="card-head">
+                      <a href="#"
+                        ><img
+                          src="webimg/memory3.PNG"
+                          alt=""
+                          class="img-fluid card-img"
+                      /></a>
+                      <div class="card-overlay"></div>
+                      <div class="card-hover">
+                        <button>
+                          <a
+                            href="https://antoniaciobanu.github.io/Memory-game/"
+                            target="_blank"
+                            >Demo</a
+                          >
+                        </button>
+                        <br />
+                        <button class="modal-button" href="#myModal3">
+                          Details
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="myModal3" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <span class="close">×</span>
+                      </div>
+                      <div class="modal-body">
+                        <h1>Mix and Match Game</h1>
+                        <p>
+                          A simple Memory Game to keep your mind sharp.The
+                          player needs to find all matching pairs in order to
+                          win. The time given is 100 seconds.
+                        </p>
+                        <h3>Web Technologies used:</h3>
+                        <p>HTML5, CSS3, JavaScript</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item css">
+                  <div class="card">
+                    <div class="card-head">
+                      <a href="#"
+                        ><img
+                          src="webimg/foodApp.PNG"
+                          alt=""
+                          class="img-fluid card-img"
+                      /></a>
+                      <div class="card-overlay"></div>
+                      <div class="card-hover">
+                        <button>
+                          <a
+                            href="https://antoniaciobanu.github.io/FoodApp/"
+                            target="_blank"
+                            >Demo</a
+                          >
+                        </button>
+                        <br />
+                        <button class="modal-button" href="#myModal2">
+                          Details
+                        </button>
+                      </div>
+                    </div>
+                    <div id="myModal2" class="modal">
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <span class="close">×</span>
+                        </div>
+                        <div class="modal-body">
+                          <h1>The Recipe</h1>
+                          <p>
+                            The Recipe is a website created to search recipes
+                            for different dishes. It has a limit of 5 searches
+                            per minute, please do not exceed that limit. Thank
+                            you!
+                          </p>
+                          <h3>Web Technologies used:</h3>
+                          <p>Food API, JavaScript, HTML5, CSS3.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item javascript">
+                  <div class="card">
+                    <div class="card-head">
+                      <a href="#"
+                        ><img
+                          src="webimg/burger.PNG"
+                          alt=""
+                          class="img-fluid card-img"
+                      /></a>
+                      <div class="card-overlay"></div>
+                      <div class="card-hover">
+                        <button>
+                          <a
+                            href="https://react-my-burger-5e121.firebaseapp.com/"
+                            target="_blank"
+                            >Demo</a
+                          >
+                        </button>
+                        <br />
+                        <button class="modal-button" href="#myModal1">
+                          Details
+                        </button>
+                      </div>
+                      <!-- The Modal -->
+                      <div id="myModal1" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <span class="close">×</span>
+                          </div>
+                          <div class="modal-body">
+                            <h1>Burger Builder App</h1>
+                            <p>
+                              This is a React app that lets you build and
+                              customize a burger. It has a Node.js backend with
+                              implementation of Firebase for the database and
+                              hosting. The project was built using the Redux
+                              library.
+                            </p>
+                            <h3>Web Technologies used:</h3>
+                            <p>
+                              ReactJS, React Router, Redux, Axios, Babel, HTML5,
+                              CSS3, Firebase for database and hosting.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- The Modal -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact form -->
+    <!-- Section: Contact v.1 -->
+    <section class="my-5" id="contact">
+      <!-- Section heading -->
+      <h2 class="h1-responsive font-weight-bold text-center my-5">
+        Contact me
+      </h2>
+      <!-- Section description -->
+
+      <!-- Grid row -->
+      <div class="row">
+        <!-- Grid column -->
+        <div class="col-lg-5 mb-lg-0 mb-4">
+          <!-- Form with header -->
+          <div class="card">
+            <div class="card-body">
+              <!-- Header -->
+              <div class="form-header blue accent-1">
+                <h3 class="mt-2"><i class="fas fa-envelope"></i> Write me:</h3>
+              </div>
+
+              <!-- Body -->
+              <div class="md-form">
+                <i class="fas fa-user prefix grey-text"></i
+                ><label for="form-name">Your name</label>
+                <input type="text" id="form-name" class="form-control" />
+              </div>
+              <div class="md-form">
+                <i class="fas fa-envelope prefix grey-text"></i
+                ><label for="form-email">Your email</label>
+                <input type="text" id="form-email" class="form-control" />
+              </div>
+              <div class="md-form">
+                <i class="fas fa-tag prefix grey-text"></i
+                ><label for="form-Subject">Subject</label>
+                <input type="text" id="form-Subject" class="form-control" />
+              </div>
+              <div class="md-form form">
+                <i class="fas fa-pencil-alt prefix grey-text"></i
+                ><label for="form-text">Send message</label>
+                <textarea
+                  id="form-text"
+                  class="form-control md-textarea"
+                  rows="3"
+                ></textarea>
+              </div>
+              <div class="text-center">
+                <button class="btn btn-light-blue button">Submit</button>
+              </div>
+            </div>
+          </div>
+          <!-- Form with header -->
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-lg-7">
+          <!--Google map-->
+          <div
+            id="map-container-section"
+            class="z-depth-1-half map-container-section mb-4"
+            style="height: 400px"
+          >
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53814.15599818503!2d-0.16767356627198807!3d51.50280991648641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon!5e0!3m2!1sen!2suk!4v1619036244222!5m2!1sen!2suk"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+          <!-- Buttons-->
+          <div class="row text-center">
+            <div class="col-md-4">
+              <a class="btn-floating blue accent-1">
+                <i
+                  class="fas fa-map-marker-alt animate__animated animate__pulse animate__infinite"
+                ></i>
+              </a>
+              <p>London</p>
+            </div>
+            <div class="col-md-4">
+              <a class="btn-floating blue accent-1">
+                <i
+                  class="fas fa-phone animate__animated animate__pulse animate__infinite"
+                ></i>
+              </a>
+              <p>07979731490</p>
+            </div>
+            <div class="col-md-4">
+              <a class="btn-floating blue accent-1">
+                <i
+                  class="fas fa-envelope animate__animated animate__pulse animate__infinite"
+                ></i>
+              </a>
+              <p>ciobanuantonia18@yahoo.com</p>
+            </div>
+          </div>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </section>
+    <!-- Section: Contact v.1 -->
+    <!-- contact form end -->
+    <div class="clearfix"></div>
+
+    <footer class="footer-area">
+      <div class="footer-wave-box">
+        <div class="footer-wave footer-animation"></div>
+      </div>
+      <div class="main">
+        <div class="footer">
+          <div class="single-footer">
+            <img src="webimg/logo_white_large.png" />
+
+            <div class="footer-section-icon">
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="copy">
+          <p>
+            &copy; 2021 all rights reserved. Design by Maria-Antonia Ciobanu
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- <script src="js/demos.js"></script> -->
+    <!-- <script src="js/typed.js"></script> -->
+
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        var scroll = document.querySelector(".scrollTop");
+        scroll.classList.toggle("active", window.scrollY > 500);
+      });
+
+      function scrollToTop() {
+        window.scroll({
+          top: 0,
+          behavior: "smooth",
+        });
+      }
+    </script>
+    <script>
+      $(function () {
+        var topoffset = 7; //variable for menu height
+
+        //Use smooth scrolling when clicking on navigation
+        $(".navbar-nav-menu a").click(function () {
+          if (
+            location.pathname.replace(/^\//, "") ===
+              this.pathname.replace(/^\//, "") &&
+            location.hostname === this.hostname
+          ) {
+            var target = $(this.hash);
+            target = target.length
+              ? target
+              : $("[name=" + this.hash.slice(1) + "]");
+            if (target.length) {
+              $("html,body").animate(
+                {
+                  scrollTop: target.offset().top - topoffset,
+                },
+                1500
+              );
+              return false;
+            } //target.length
+          } //click function
+        }); //smooth scrolling
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $(".menu-icon").click(function () {
+          $(".navbar-nav").addClass("responsive-menu"),
+            $(".navbar-nav").removeClass("navbar-nav-menu"),
+            $(this).toggleClass("black");
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $(".menu-icon").click(function () {
+          $(".responsive-menu").slideToggle(1000);
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $(".menu-icon").click(function () {
+          let menuControl = $(".menu-icon");
+          if (menuControl.hasClass("black")) {
+            $(".logo-lite").toggleClass("display-none"),
+              $(".logo-black").toggleClass("display-inline");
+          } else {
+            $(".logo-black").toggleClass("display-inline"),
+              $(".logo-lite").toggleClass("display-none");
+          }
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $(".nav-link").click(function () {
+          $(".responsive-menu").slideUp(500);
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $(".scrollTop").click(function () {
+          $(".menu-icon").removeClass("black"),
+            $(".logo-lite").removeClass("display-none"),
+            $(".logo-black").removeClass("display-inline");
+        });
+      });
+    </script>
+  </body>
+</html>
