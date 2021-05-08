@@ -1,14 +1,9 @@
 .footer-area {
-  margin-top: 100px;
+  margin-top: 00px;
   padding: 50px 0;
   background: linear-gradient(
     -45deg,
-    /* #a1dcd7,
-    #88ddee,
-    #88ddee,
-    #7e9eff,
-    #8289ff, */
-      rgb(137, 233, 172),
+    rgb(137, 233, 172),
     rgb(105, 159, 184),
     rgb(83, 78, 197),
     rgb(80, 18, 204)

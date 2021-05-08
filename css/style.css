@@ -493,7 +493,7 @@ header.sticky .logo .logo-black {
 }
 
 .works-section {
-  padding: 50px 0px 50px 0px;
+  padding: 50px 0px 50px 80px;
 }
 .works-section h2 {
   padding-bottom: 25px;
@@ -608,9 +608,9 @@ header.sticky .logo .logo-black {
 .footer {
   position: relative;
   height: 100px;
-  /* margin-top: 10px; */
 }
 .footer-section-icon i {
+  position: absolute;
   padding: 9px;
   font-size: 20px;
   width: 40px;
@@ -789,9 +789,9 @@ header.sticky .logo .logo-black {
   header.sticky {
     padding-bottom: 45px;
   }
-  .footer-section-icon i {
-    margin-left: auto;
-    margin-right: auto;
+  .btn-wrapper {
+    position: absolute;
+    bottom: 90px;
   }
 }
 
@@ -826,9 +826,7 @@ header.sticky .logo .logo-black {
   .form-section .other-input button {
     margin-right: -7px;
   }
-  .footer-section-icon {
-    margin-left: 65px;
-  }
+
   .card img {
     width: auto;
     height: auto;
@@ -840,4 +838,8 @@ header.sticky .logo .logo-black {
     bottom: 2%;
     width: 100px;
   }
+  .works-section {
+    padding: 50px 0px 50px 0px;
+  }
+  
 }

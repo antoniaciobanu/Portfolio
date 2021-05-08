@@ -30,11 +30,15 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <!--  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 
+    <!--  -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/bubbles.css" />
     <link rel="stylesheet" href="css/timeline.css" />
-    <link rel="stylesheet" href="css/animated-footer.css" />
+    <!-- <link rel="stylesheet" href="css/animated-footer.css" /> -->
+    <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/modal.css" />
     <link rel="stylesheet" href="css/contact-form.css" />
   </head>
@@ -184,9 +188,8 @@
         <div class="about-us-text">
           <h2 data-aos="fade-left" data-aos-duration="2500">About Me</h2>
           <h3 data-aos="fade-left" data-aos-duration="2500">
-            Hello!
             <span data-aos="fade-left" data-aos-duration="2500"
-              >I'M Maria-Antonia Ciobanu</span
+              >I'm Maria-Antonia Ciobanu</span
             >
           </h3>
           <p>
@@ -336,6 +339,17 @@
       <div class="row">
         <div class="col-md-12">
           <div class="main-timeline">
+            <div class="timeline" data-aos="zoom-in-left">
+              <a href="#" class="timeline-content">
+                <div class="timeline-year">2020</div>
+                <h3 class="title">Humanitarian Operations</h3>
+                <p class="description">
+                  Working on different projects with a team of Web Designers and
+                  Software Developers to achieve the deadline.<br />Creating
+                  e-commerce websites with HTML5, CSS3 and JavaScript.
+                </p>
+              </a>
+            </div>
             <div class="timeline" data-aos="zoom-in-right">
               <a href="#" class="timeline-content">
                 <div class="timeline-year">2020-2021</div>
@@ -631,7 +645,7 @@
     <!-- contact form end -->
     <div class="clearfix"></div>
 
-    <footer class="footer-area">
+    <!-- <footer class="footer-area">
       <div class="footer-wave-box">
         <div class="footer-wave footer-animation"></div>
       </div>
@@ -654,8 +668,87 @@
           </p>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
+    <!--  -->
+    <section class="footer">
+      <svg
+        width="100%"
+        height="100%"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        class="wave5"
+      >
+        <defs></defs>
+        <path id="feel-the-wave" d="" />
+      </svg>
+
+      <svg
+        width="100%"
+        height="100%"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        class="wave5"
+      >
+        <defs></defs>
+        <path id="feel-the-wave-two" d="" />
+      </svg>
+      <svg
+        width="100%"
+        height="100%"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        class="wave5"
+      >
+        <defs></defs>
+        <path id="feel-the-wave-three" d="" />
+      </svg>
+
+      <div class="btn-wrapper">
+        <a href="#"><i class="fab fa-github btn"></i></a>
+        <a href="#"><i class="fab fa-facebook-f btn"></i></a>
+        <!-- <a href="#"><i class="fab fa-instagram btn"></i></a> -->
+        <a href="#"><i class="fab fa-linkedin-in btn"></i></a>
+      </div>
+      <div class="copy">
+        <p>&copy; 2021 all rights reserved. Design by Maria-Antonia Ciobanu</p>
+      </div>
+    </section>
+    <!--  -->
+    <!--  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+      integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/wavify.js"></script>
+    <script src="js/jquery.wavify.js"></script>
+    <script>
+      var wave1 = $("#feel-the-wave").wavify({
+        height: 50,
+        bones: 3,
+        amplitude: 60,
+        color: "rgb(137, 203, 233)",
+        speed: 0.15,
+      });
+
+      var wave2 = $("#feel-the-wave-two").wavify({
+        height: 60,
+        bones: 3,
+        amplitude: 40,
+        color: "rgb(105, 159, 184)",
+        speed: 0.25,
+      });
+      var wave3 = $("#feel-the-wave-three").wavify({
+        height: 70,
+        bones: 3,
+        amplitude: 50,
+        color: "rgb(83, 78, 197)",
+        speed: 0.2,
+      });
+    </script>
+    <!--  -->
     <script>
       window.addEventListener("scroll", function () {
         var header = document.querySelector("header");
@@ -672,8 +765,6 @@
     </script>
     <script src="js/isotope.min.js"></script>
     <script src="js/script.js"></script>
-    <!-- <script src="js/demos.js"></script> -->
-    <!-- <script src="js/typed.js"></script> -->
 
     <script type="text/javascript">
       window.addEventListener("scroll", function () {
